@@ -7,7 +7,7 @@ setup(name='kenja-python-parser',
       author_email='kenji-f@is.naist.jp',
       url='https://github.com/sdlab-naist/kenja-python-parser',
       packages=find_packages(),
-      install_requires = ["astor"],
+      install_requires = ["astor==0.6.2"],
       license="MIT license",
       classifiers=[
           'Development Status :: 3 - Alpha',
